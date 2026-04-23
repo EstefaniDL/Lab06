@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 export default function Projects() {
     return (
-        <> <section className={styles.projects} id="projects">
-            <div className={styles.container}>
-                <div className={styles.section__header}>
-                    <span className={styles.section__subtitle}>Mi trabajo</span>
-                    <h2 className={styles.section__title}>Proyectos Destacados</h2>
-                    <p className={styles.section__description}>
+         <section className={`section ${styles.projects}`} id="projects">
+            <div className="container">
+            <div className="section__header">
+                    <span className="section__subtitle">Mi trabajo</span>
+                    <h2 className="section__title">Proyectos Destacados</h2>
+                    <p className="section__description">
                         Una selección de proyectos que demuestran mis habilidades y pasión por el desarrollo (aún no tengo :( )
                     </p>
                 </div>
@@ -20,6 +20,6 @@ export default function Projects() {
                     </Link>
                 </div>
             </div>
-        </section> </>
+        </section> 
     );
 }

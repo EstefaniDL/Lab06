@@ -8,7 +8,7 @@ let HeroDescription: String = 'Estudiante de desarrollo de software interesada e
 
 export default function Hero() {
     return ( 
-        <> <section className={`${styles.hero} section`} id="home">
+         <section className={`${styles.hero} section`} id="home">
             <div className={`container ${styles.hero__container}`}>
                  <div className={styles.hero__content}>
                     <span className={styles.hero__greeting}>¡Hola! 👋 Soy</span>
@@ -52,6 +52,5 @@ export default function Hero() {
                 </Link>
             </div>
         </section>
- </>
     );
 }
