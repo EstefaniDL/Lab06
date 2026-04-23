@@ -228,3 +228,4 @@ button {
        PISTA: Falta la propiedad que agrega sombras al elemento */
     box-shadow: var(--shadow-lg), var(--shadow-glow);   
 }
+
